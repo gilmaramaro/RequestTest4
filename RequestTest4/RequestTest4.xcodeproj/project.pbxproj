@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4658E927A72C665DA832A97E /* Pods_RequestTest4_RequestTest4UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D3A257B343C2EBC750BE58 /* Pods_RequestTest4_RequestTest4UITests.framework */; };
+		7516B43629CC9FC1003A33F3 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7516B43529CC9FC1003A33F3 /* Pizza.swift */; };
+		7516B43829CC9FFC003A33F3 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7516B43729CC9FFC003A33F3 /* Request.swift */; };
+		7516B43A29CCA030003A33F3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7516B43929CCA030003A33F3 /* SecondViewController.swift */; };
+		7516B43C29CCA042003A33F3 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7516B43B29CCA042003A33F3 /* ThirdViewController.swift */; };
+		7516B43F29CCA7C9003A33F3 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7516B43D29CCA7C9003A33F3 /* MyTableViewCell.swift */; };
+		7516B44029CCA7C9003A33F3 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7516B43E29CCA7C9003A33F3 /* MyTableViewCell.xib */; };
 		75B3FEB429C8D1B0001B131F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B3FEB329C8D1B0001B131F /* AppDelegate.swift */; };
 		75B3FEB629C8D1B0001B131F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B3FEB529C8D1B0001B131F /* SceneDelegate.swift */; };
 		75B3FEB829C8D1B0001B131F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B3FEB729C8D1B0001B131F /* ViewController.swift */; };
@@ -17,7 +23,6 @@
 		75B3FECB29C8D1B1001B131F /* RequestTest4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B3FECA29C8D1B1001B131F /* RequestTest4Tests.swift */; };
 		75B3FED529C8D1B1001B131F /* RequestTest4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B3FED429C8D1B1001B131F /* RequestTest4UITests.swift */; };
 		75B3FED729C8D1B1001B131F /* RequestTest4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B3FED629C8D1B1001B131F /* RequestTest4UITestsLaunchTests.swift */; };
-		75B3FEE429C8D304001B131F /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B3FEE329C8D304001B131F /* Pizza.swift */; };
 		973ECFCF3021DAC5CBD53B79 /* Pods_RequestTest4Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321CF1445F47FACC7AC35D79 /* Pods_RequestTest4Tests.framework */; };
 		ED17010700967A0BE0FAAAF4 /* Pods_RequestTest4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 802BD39CC443044B836262BD /* Pods_RequestTest4.framework */; };
 /* End PBXBuildFile section */
@@ -45,6 +50,12 @@
 		321CF1445F47FACC7AC35D79 /* Pods_RequestTest4Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RequestTest4Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A4AA9FA13A99C597FC6585 /* Pods-RequestTest4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RequestTest4.release.xcconfig"; path = "Target Support Files/Pods-RequestTest4/Pods-RequestTest4.release.xcconfig"; sourceTree = "<group>"; };
 		7381218048859B38BAA25D25 /* Pods-RequestTest4Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RequestTest4Tests.release.xcconfig"; path = "Target Support Files/Pods-RequestTest4Tests/Pods-RequestTest4Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7516B43529CC9FC1003A33F3 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		7516B43729CC9FFC003A33F3 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		7516B43929CCA030003A33F3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7516B43B29CCA042003A33F3 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		7516B43D29CCA7C9003A33F3 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		7516B43E29CCA7C9003A33F3 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
 		75B3FEB029C8D1B0001B131F /* RequestTest4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RequestTest4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B3FEB329C8D1B0001B131F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75B3FEB529C8D1B0001B131F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,7 +69,6 @@
 		75B3FED029C8D1B1001B131F /* RequestTest4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RequestTest4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B3FED429C8D1B1001B131F /* RequestTest4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTest4UITests.swift; sourceTree = "<group>"; };
 		75B3FED629C8D1B1001B131F /* RequestTest4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTest4UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		75B3FEE329C8D304001B131F /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 		802BD39CC443044B836262BD /* Pods_RequestTest4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RequestTest4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93E6EBC21F23DE166F4FAF85 /* Pods-RequestTest4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RequestTest4.debug.xcconfig"; path = "Target Support Files/Pods-RequestTest4/Pods-RequestTest4.debug.xcconfig"; sourceTree = "<group>"; };
 		E7D3A257B343C2EBC750BE58 /* Pods_RequestTest4_RequestTest4UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RequestTest4_RequestTest4UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,8 +141,13 @@
 				75B3FEB329C8D1B0001B131F /* AppDelegate.swift */,
 				75B3FEB529C8D1B0001B131F /* SceneDelegate.swift */,
 				75B3FEB729C8D1B0001B131F /* ViewController.swift */,
-				75B3FEE329C8D304001B131F /* Pizza.swift */,
 				75B3FEB929C8D1B0001B131F /* Main.storyboard */,
+				7516B43D29CCA7C9003A33F3 /* MyTableViewCell.swift */,
+				7516B43E29CCA7C9003A33F3 /* MyTableViewCell.xib */,
+				7516B43B29CCA042003A33F3 /* ThirdViewController.swift */,
+				7516B43929CCA030003A33F3 /* SecondViewController.swift */,
+				7516B43529CC9FC1003A33F3 /* Pizza.swift */,
+				7516B43729CC9FFC003A33F3 /* Request.swift */,
 				75B3FEBC29C8D1B1001B131F /* Assets.xcassets */,
 				75B3FEBE29C8D1B1001B131F /* LaunchScreen.storyboard */,
 				75B3FEC129C8D1B1001B131F /* Info.plist */,
@@ -280,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75B3FEC029C8D1B1001B131F /* LaunchScreen.storyboard in Resources */,
+				7516B44029CCA7C9003A33F3 /* MyTableViewCell.xib in Resources */,
 				75B3FEBD29C8D1B1001B131F /* Assets.xcassets in Resources */,
 				75B3FEBB29C8D1B0001B131F /* Main.storyboard in Resources */,
 			);
@@ -409,8 +425,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75B3FEE429C8D304001B131F /* Pizza.swift in Sources */,
+				7516B43A29CCA030003A33F3 /* SecondViewController.swift in Sources */,
+				7516B43F29CCA7C9003A33F3 /* MyTableViewCell.swift in Sources */,
+				7516B43629CC9FC1003A33F3 /* Pizza.swift in Sources */,
 				75B3FEB829C8D1B0001B131F /* ViewController.swift in Sources */,
+				7516B43C29CCA042003A33F3 /* ThirdViewController.swift in Sources */,
+				7516B43829CC9FFC003A33F3 /* Request.swift in Sources */,
 				75B3FEB429C8D1B0001B131F /* AppDelegate.swift in Sources */,
 				75B3FEB629C8D1B0001B131F /* SceneDelegate.swift in Sources */,
 			);

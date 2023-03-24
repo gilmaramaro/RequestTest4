@@ -20,4 +20,3 @@ struct PizzaElement: Codable {
 }
 
 typealias Pizza = [PizzaElement]
-
